@@ -11,20 +11,15 @@ public class PlaylistDTO {
         this.name = name;
         this.songs = songs;
     }
-
-    // Getters and setters
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public List<Song> getSongs() {
         return songs;
     }
-
     public void setSongs(List<Song> songs) {
         this.songs = songs;
     }
